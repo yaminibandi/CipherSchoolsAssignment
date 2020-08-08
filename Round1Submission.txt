@@ -47,9 +47,9 @@ int main()
         string expression;
         cin>>expression;
         if (isBalanced(expression)) 
-		    cout<<"YES"<<endl; 
-	    else
-		    cout<<"NO"<<endl; 
+		cout<<"YES"<<endl; 
+	else
+		cout<<"NO"<<endl; 
     }
 	return 0; 
 } 
